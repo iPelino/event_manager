@@ -30,7 +30,7 @@ For paid events, implement a payment system that stores payment details.
 Payment details should include the participant, event, amount paid, payment method, payment date, transaction ID, and payment status (choices: 'PAID', 'PENDING', 'FAILED').
 
 TASKS:
-=====
+------
 
 Task 1:
 Design the Django models to represent the above requirements. Write the necessary code in Python using the Django framework to create the models. Make sure to include all required fields, relationships, and any additional methods or attributes needed.
@@ -42,45 +42,45 @@ Try also to diversify the data. Make sure to include your database (in json form
 Task 3:
 The following covers a range of functionalities that would be required. You are tasked to write django queries corresponding to the below needs. Every query should have it own view and url endpoint. 
 
-a list of all events.
-details of a specific event by its title.
-list of all speakers.
-details of a specific speaker by their name.
-a list of all participants.
-details of a specific participant by their email address.
-a list of all schedules.
-schedules of a specific event.
-a list of all payments.
-payments made by a specific participant.
-the upcoming events based on the current date.
-a list of free events.
-a list of paid events.
-the count of participants for each event.
-the count of events attended by each participant.
-the count of schedules for each event.
-the total amount paid for a specific event.
-the average price of paid events.
-the list of participants attending a specific event.
-the list of speakers for a specific event.
-the events scheduled for a specific date range.
-participants who have attended all events.
-events that have no assigned speakers.
-events with the highest amount paid.
-participants who have paid the most.
-speakers who have the most scheduled events.
-events with the longest duration.
-participants who have attended the most events in a specific month.
-events with overlapping schedules.
-participants who have made a payment in the last 7 days.
-participants who have attended consecutive events.
-speakers who have not been assigned to any events.
-events with the highest total payment amount.
-participants who have attended events in multiple locations.
-speakers who have presented on different topics.
-events with the longest gap between start and end dates.
-participants who have attended events organized by a specific location.
-speakers who have the highest average rating.
-participants who have made payments for all events.
+- a list of all events.
+- details of a specific event by its title.
+- list of all speakers.
+- details of a specific speaker by their name.
+- a list of all participants.
+- details of a specific participant by their email address.
+- a list of all schedules.
+- schedules of a specific event.
+- a list of all payments.
+- payments made by a specific participant.
+- the upcoming events based on the current date.
+- a list of free events.
+- a list of paid events.
+- the count of participants for each event.
+- the count of events attended by each participant.
+- the count of schedules for each event.
+- the total amount paid for a specific event.
+- the average price of paid events.
+- the list of participants attending a specific event.
+- the list of speakers for a specific event.
+- the events scheduled for a specific date range.
+- participants who have attended all events.
+- events that have no assigned speakers.
+- events with the highest amount paid.
+- participants who have paid the most.
+- speakers who have the most scheduled events.
+- events with the longest duration.
+- participants who have attended the most events in a specific month.
+- events with overlapping schedules.
+- participants who have made a payment in the last 7 days.
+- participants who have attended consecutive events.
+- speakers who have not been assigned to any events.
+- events with the highest total payment amount.
+- participants who have attended events in multiple locations.
+- speakers who have presented on different topics.
+- events with the longest gap between start and end dates.
+- participants who have attended events organized by a specific location.
+- speakers who have the highest average rating.
+- participants who have made payments for all events.
 
 Task 4 (Optional):
 If you want you can style (using bootstrap) each template file according to the data you will be rendering.
