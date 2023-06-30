@@ -1,3 +1,13 @@
+ASSIGNMENT EVENT MANAGEMENT
+===========================
+Team Members:
+--------------
+1. Name:        RegNo:          Department:
+2. Name:        RegNo:          Department:
+3. Name:        RegNo:          Department:
+4. Name:        RegNo:          Department:
+
+
 Instructions
 ============
 This work will have two main sections (1. practical assignment, 2. Presentation assignment)
