@@ -32,14 +32,14 @@ Payment details should include the participant, event, amount paid, payment meth
 TASKS:
 ------
 
-Task 1:
+**Task 1:**
 Design the Django models to represent the above requirements. Write the necessary code in Python using the Django framework to create the models. Make sure to include all required fields, relationships, and any additional methods or attributes needed.
 
-TASK 2:
+**TASK 2:**
 Populate the models created with some dummy data reflecting a real-world scenario. create at least 100 records for each model.
 Try also to diversify the data. Make sure to include your database (in json format) in the project structure.
 
-Task 3:
+**Task 3:**
 The following covers a range of functionalities that would be required. You are tasked to write django queries corresponding to the below needs. Every query should have it own view and url endpoint. 
 
 - a list of all events.
@@ -82,5 +82,5 @@ The following covers a range of functionalities that would be required. You are 
 - speakers who have the highest average rating.
 - participants who have made payments for all events.
 
-Task 4 (Optional):
+**Task 4 (Optional):**
 If you want you can style (using bootstrap) each template file according to the data you will be rendering.
